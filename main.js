@@ -1,6 +1,7 @@
-// function show() {
-    
-//     let show = document.querySelector('.nav-hide')
-//     show.style.display = 'inherit'
-   
-// }
+
+let showt = document.querySelector('.navs');
+function show() {
+    // alert()
+    showt.classList.toggle('active')
+
+}
