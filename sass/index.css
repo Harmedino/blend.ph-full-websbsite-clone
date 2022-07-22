@@ -1,0 +1,1412 @@
+@font-face {
+  font-family: opensans1;
+  src: url(../Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: opensans2;
+  src: url(../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(../Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(../Roboto/Roboto-Bold.ttf);
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  box-shadow: 3px 0px 5px rgb(201, 200, 200);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+}
+header img {
+  width: 150px;
+  height: 50px;
+}
+header .nav-bar {
+  border: none;
+  background-color: transparent;
+}
+header .nav-bar i {
+  display: none;
+}
+header .navs a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #9a9a9a;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.body2 {
+  display: flex;
+  width: 100%;
+  height: 680px;
+}
+.body2 .body21 {
+  background-color: #F9FAFB;
+  width: 50%;
+}
+.body2 .body21 .safer {
+  margin-top: 10%;
+  color: #028079;
+  margin-left: 7%;
+  font-family: opensans2;
+  font-size: 30px;
+  font-weight: 700;
+}
+.body2 .body21 .online {
+  margin-left: 7%;
+  font-family: opensans2;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.body2 .body21 .loanproducts {
+  margin-top: 4%;
+  margin-left: 7%;
+}
+.body2 .body21 .loanproducts .loan {
+  font-family: opensans2;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.body2 .body21 .loanproducts select {
+  border: none;
+  border: 1px solid #97999b;
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 80%;
+  height: 50px;
+}
+.body2 .body21 .ploan {
+  margin-top: 4%;
+  margin-left: 7%;
+}
+.body2 .body21 .ploan label {
+  font-family: opensans2;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.body2 .body21 .ploan input {
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 80%;
+  height: 50px;
+}
+.body2 .body21 .ploan div {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: opensans2;
+  color: #666666;
+  margin-top: 1%;
+}
+.body2 .body21 .ploant {
+  margin-top: 4%;
+  margin-left: 7%;
+}
+.body2 .body21 .ploant label {
+  font-family: opensans2;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.body2 .body21 .ploant select {
+  border: none;
+  border: 1px solid #97999b;
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 80%;
+  height: 50px;
+}
+.body2 .body21 .ploant div {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: opensans2;
+  color: #666666;
+  margin-top: 1%;
+}
+.body2 .body21 .apply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+  width: 21%;
+  height: 45px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: opensans2;
+  color: white;
+  background-color: #48BB78;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+.body2 .pics {
+  width: 50%;
+}
+.body2 .pics img {
+  width: 100%;
+  height: 100%;
+}
+
+.body3 {
+  width: 100%;
+  background-color: white;
+  margin-top: 5%;
+}
+.body3 .loan {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: opensans2;
+  color: #2d9691;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body3 .tailored {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: opensans2;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.body3 .loan-product {
+  margin-top: 50px;
+}
+.body3 .loan-product p {
+  color: #6aa398;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.9px;
+}
+.body3 .loan-product h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.8px;
+  margin-bottom: 30px;
+}
+.body3 .loan-product .loan {
+  width: 100%;
+  margin-top: 70px;
+}
+.body3 .loan-product .loan a {
+  letter-spacing: 1px;
+  color: #006861;
+  margin-left: 70px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 5px solid #006861;
+  border-radius: 12px;
+  padding: 9px 9px;
+}
+.body3 .loan-product .loan a i {
+  display: none;
+}
+.body3 .loan-product .loan a:hover i {
+  display: inherit;
+}
+.body3 .loan-product .loan .fastt {
+  letter-spacing: 2px;
+}
+.body3 .loan-product .loan .fast {
+  letter-spacing: 5px;
+}
+.body3 .loan-product .doc {
+  color: #9a9a9a;
+}
+.body3 .learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.body4 {
+  background-color: #F9FAFB;
+  width: 100%;
+  margin-top: 5%;
+}
+.body4 .how {
+  padding-top: 3%;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: opensans2;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body4 .know {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: opensans2;
+  color: #989898;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body4 div img {
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
+.body4 .be {
+  display: flex;
+  margin-top: 4%;
+  align-items: center;
+  justify-content: center;
+}
+.body4 .be .borrow {
+  background-color: white;
+  width: 15%;
+  margin-right: 18%;
+  margin-left: 18%;
+  height: 50px;
+  padding: 1%;
+  border: 2px solid #006861;
+  color: #006861;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: opensans2;
+  margin-bottom: 5%;
+}
+
+.body5 {
+  margin-top: 4%;
+  width: 100%;
+}
+.body5 .trust {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: opensans2;
+  color: #2d9691;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body5 .by {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: opensans2;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+.body5 .blue {
+  padding-bottom: 5%;
+  height: fit-content;
+}
+.body5 .announce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: opensans2;
+  color: #028079;
+  margin-top: 2%;
+}
+.body5 .house2 {
+  width: 100% !important;
+}
+.body5 .house2 center {
+  flex-wrap: wrap !important;
+  align-items: center;
+  justify-content: center;
+}
+.body5 .house2 center div {
+  padding: 0px 20px;
+  width: 30%;
+}
+.body5 .house2 center div img {
+  width: 400px !important;
+}
+.body5 .service img {
+  width: 100%;
+}
+
+.body6 .frequent {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: opensans2;
+  color: black;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body6 .what {
+  margin-left: 2%;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: roboto-regular;
+  color: #006861;
+  margin-top: 2%;
+}
+.body6 .blend {
+  margin-left: 2%;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: roboto-bold;
+  color: #636363;
+  margin-top: 1%;
+}
+.body6 .how {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: roboto-regular;
+  color: #006861;
+  margin-top: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.body6 .step {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: roboto-regular;
+  color: #008080;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.body6 .compare {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: roboto-bold;
+  color: #636363;
+  margin-left: 2%;
+}
+
+.what2 {
+  margin-top: 4%;
+  background-color: white;
+  width: 20%;
+  height: 50px;
+  border: 2px solid #006861;
+  color: #006861;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: opensans2;
+  margin-bottom: 5%;
+  margin-left: 42%;
+}
+
+@media (max-width: 1304px) {
+  nav img {
+    width: 13%;
+  }
+  nav div {
+    margin-left: 28%;
+  }
+  nav div a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1272px) {
+  nav img {
+    width: 14%;
+  }
+  nav div {
+    margin-left: 25%;
+  }
+
+  .body2 .body21 {
+    width: 42%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 95%;
+  }
+  .body2 .body21 .ploan input {
+    width: 95%;
+  }
+  .body2 .body21 .ploant select {
+    width: 95%;
+  }
+  .body2 .body21 .apply {
+    width: 27%;
+    height: 49px;
+  }
+  .body2 .pics {
+    width: 58%;
+  }
+}
+@media (max-width: 1231px) {
+  nav img {
+    width: 15%;
+  }
+  nav div {
+    margin-left: 22%;
+  }
+
+  .body2 .body21 {
+    width: 37%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 107%;
+    position: relative;
+  }
+  .body2 .body21 .ploan input {
+    width: 107%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 107%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    width: 30%;
+    height: 52px;
+  }
+  .body2 .pics {
+    width: 63%;
+  }
+}
+@media (max-width: 1192px) {
+  .loan-product .loan a {
+    margin-left: 20px;
+  }
+
+  nav img {
+    width: 16%;
+  }
+  nav div {
+    margin-left: 19%;
+  }
+
+  .body2 .body21 {
+    width: 33%;
+  }
+  .body2 .body21 .online {
+    width: 120%;
+    position: relative;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 120%;
+  }
+  .body2 .body21 .ploan input {
+    width: 120%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 120%;
+  }
+  .body2 .body21 .ploant select {
+    width: 120%;
+  }
+  .body2 .body21 .apply {
+    width: 37%;
+    height: 52px;
+  }
+  .body2 .pics {
+    width: 67%;
+  }
+
+  .body4 .be .borrow {
+    width: 40%;
+  }
+}
+@media (max-width: 1155px) {
+  nav div {
+    margin-left: 17%;
+  }
+
+  .body2 .body21 {
+    width: 28%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 17%;
+    font-size: 28px;
+  }
+  .body2 .body21 .online {
+    width: 170%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 143%;
+  }
+  .body2 .body21 .ploan input {
+    width: 143%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 143%;
+  }
+  .body2 .body21 .ploant select {
+    width: 143%;
+  }
+  .body2 .body21 .apply {
+    width: 50%;
+    height: 52px;
+  }
+  .body2 .pics {
+    width: 72%;
+  }
+
+  .body4 .be .borrow {
+    width: 15%;
+    margin-right: 17%;
+    margin-left: 17%;
+    height: 50px;
+  }
+}
+@media (max-width: 1121px) {
+  nav div {
+    margin-left: 15%;
+  }
+
+  .body2 .body21 {
+    width: 23%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 23%;
+    font-size: 28px;
+    width: 180%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 170%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 180%;
+  }
+  .body2 .body21 .ploan input {
+    width: 180%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 180%;
+  }
+  .body2 .body21 .ploant select {
+    width: 180%;
+  }
+  .body2 .body21 .ploant div {
+    width: 180%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    width: 53%;
+    height: 52px;
+    margin-top: 5%;
+  }
+  .body2 .pics {
+    width: 77%;
+  }
+}
+@media (max-width: 1089px) {
+  nav img {
+    width: 17%;
+  }
+  nav div {
+    margin-left: 12%;
+  }
+
+  .body2 .body21 {
+    width: 18%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 26%;
+    font-size: 28px;
+    width: 225%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 225%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 225%;
+  }
+  .body2 .body21 .ploan input {
+    width: 225%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 225%;
+  }
+  .body2 .body21 .ploant select {
+    width: 225%;
+  }
+  .body2 .body21 .ploant div {
+    width: 225%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    width: 68%;
+    height: 52px;
+    margin-top: 10%;
+  }
+  .body2 .pics {
+    width: 82%;
+  }
+
+  .body4 .be .borrow {
+    width: 16%;
+    margin-right: 16%;
+    margin-left: 16%;
+    height: 50px;
+  }
+}
+@media (max-width: 1058px) {
+  nav img {
+    width: 18%;
+  }
+  nav div {
+    margin-left: 9%;
+  }
+
+  .body2 .body21 {
+    width: 13.5%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 29%;
+    font-size: 28px;
+    width: 225%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 250%;
+    font-size: 30px;
+  }
+  .body2 .body21 .loanproducts .loan {
+    margin-top: 15%;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 295%;
+  }
+  .body2 .body21 .ploan label {
+    width: 295%;
+    position: relative;
+    margin-top: 5%;
+  }
+  .body2 .body21 .ploan input {
+    width: 295%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 295%;
+  }
+  .body2 .body21 .ploant label {
+    margin-top: 5%;
+    width: 295%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 295%;
+  }
+  .body2 .body21 .ploant div {
+    width: 295%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    position: relative;
+    width: 105%;
+    height: 52px;
+    margin-top: 15%;
+  }
+  .body2 .pics {
+    width: 86.5%;
+  }
+
+  .what2 {
+    width: 25%;
+  }
+}
+@media (max-width: 1039px) {
+  .body2 .body21 {
+    width: 10%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 60%;
+    font-size: 28px;
+    width: 300%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 330%;
+    font-size: 30px;
+  }
+  .body2 .body21 .loanproducts .loan {
+    margin-top: 15%;
+    width: 300%;
+    position: relative;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 410%;
+  }
+  .body2 .body21 .ploan label {
+    width: 410%;
+    position: relative;
+    margin-top: 5%;
+  }
+  .body2 .body21 .ploan input {
+    width: 410%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 410%;
+  }
+  .body2 .body21 .ploant label {
+    margin-top: 5%;
+    width: 410%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 410%;
+  }
+  .body2 .body21 .ploant div {
+    width: 410%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    position: relative;
+    width: 140%;
+    height: 52px;
+    margin-top: 15%;
+  }
+  .body2 .pics {
+    width: 90%;
+  }
+}
+@media (max-width: 1029px) {
+  nav div {
+    margin-left: 8%;
+  }
+
+  .body2 .body21 {
+    height: 90%;
+    width: 8%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 60%;
+    font-size: 28px;
+    width: 300%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 400%;
+    font-size: 30px;
+  }
+  .body2 .body21 .loanproducts .loan {
+    margin-top: 15%;
+    width: 300%;
+    position: relative;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 670%;
+  }
+  .body2 .body21 .ploan label {
+    width: 450%;
+    position: relative;
+    margin-top: 5%;
+  }
+  .body2 .body21 .ploan input {
+    width: 450%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 450%;
+  }
+  .body2 .body21 .ploant label {
+    margin-top: 5%;
+    width: 450%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 450%;
+  }
+  .body2 .body21 .ploant div {
+    width: 450%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    position: relative;
+    width: 160%;
+    height: 52px;
+    margin-top: 15%;
+  }
+  .body2 .pics {
+    width: 91%;
+    height: 90%;
+  }
+
+  .body3 .house .ploan {
+    height: 55px;
+  }
+}
+@media (max-width: 1016px) {
+  nav div {
+    margin-left: 6%;
+  }
+
+  .body2 .body21 {
+    height: 92%;
+    width: 6%;
+  }
+  .body2 .body21 .safer {
+    margin-top: 110%;
+    font-size: 28px;
+    width: 670%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 600%;
+    font-size: 30px;
+  }
+  .body2 .body21 .loanproducts .loan {
+    margin-top: 15%;
+    width: 670%;
+    position: relative;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 670%;
+  }
+  .body2 .body21 .ploan label {
+    width: 670%;
+    position: relative;
+    margin-top: 5%;
+  }
+  .body2 .body21 .ploan input {
+    width: 670%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 670%;
+  }
+  .body2 .body21 .ploant label {
+    margin-top: 5%;
+    width: 670%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 670%;
+  }
+  .body2 .body21 .ploant div {
+    width: 670%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    position: relative;
+    width: 240%;
+    height: 52px;
+    margin-top: 15%;
+  }
+  .body2 .pics {
+    width: 94%;
+    height: 93%;
+  }
+  .body2 .pics img {
+    height: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .body2 .body21 {
+    height: 92%;
+    width: 2%;
+  }
+  .body2 .body21 .safer {
+    margin-left: 30%;
+    margin-top: 300%;
+    font-size: 28px;
+    width: 2000%;
+    position: relative;
+  }
+  .body2 .body21 .online {
+    width: 1700%;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+  .body2 .body21 .loanproducts {
+    margin-left: 30%;
+  }
+  .body2 .body21 .loanproducts .loan {
+    margin-top: 80%;
+    width: 2000%;
+    position: relative;
+  }
+  .body2 .body21 .loanproducts select {
+    width: 2000%;
+  }
+  .body2 .body21 .ploan {
+    margin-left: 30%;
+  }
+  .body2 .body21 .ploan label {
+    width: 2000%;
+    position: relative;
+    margin-top: 5%;
+  }
+  .body2 .body21 .ploan input {
+    width: 2000%;
+  }
+  .body2 .body21 .ploan div {
+    position: relative;
+    width: 2000%;
+  }
+  .body2 .body21 .ploant {
+    margin-left: 30%;
+  }
+  .body2 .body21 .ploant label {
+    margin-top: 5%;
+    width: 2000%;
+    position: relative;
+  }
+  .body2 .body21 .ploant select {
+    width: 2000%;
+  }
+  .body2 .body21 .ploant div {
+    width: 2000%;
+    position: relative;
+  }
+  .body2 .body21 .apply {
+    margin-left: 30%;
+    position: relative;
+    width: 700%;
+    height: 52px;
+    margin-top: 50%;
+  }
+  .body2 .pics {
+    width: 98%;
+    height: 93%;
+  }
+  .body2 .pics img {
+    height: 100%;
+  }
+
+  .body4 .be .borrow {
+    width: 18%;
+    margin-right: 14%;
+    margin-left: 14%;
+    height: 50px;
+  }
+}
+@media (max-width: 980px) {
+  header .navs {
+    position: absolute;
+    height: 300px;
+    top: 70px;
+    right: 0px;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    z-index: -5 !important;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: all ease-in 0.5s;
+  }
+  header .navs a {
+    margin-top: 10px;
+    text-align: center;
+  }
+  header .nav-bar i {
+    display: inherit;
+    margin-right: 30px;
+  }
+  header .nav-bar a {
+    display: block;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(103, 100, 100);
+  }
+
+  .house2 {
+    width: 100% !important;
+    border: 1px solid rgb(136, 0, 255);
+  }
+  .house2 center {
+    flex-direction: column;
+    border: 1px solid rgb(60, 255, 0);
+    width: 90%;
+  }
+  .house2 center div {
+    padding: 0px 20px;
+    width: 100% !important;
+    border: 1px solid red;
+    margin: auto;
+  }
+  .house2 center div img {
+    width: 60% !important;
+  }
+
+  .loan-product .loan {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: -50px;
+  }
+  .loan-product .loan a {
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 10px;
+  }
+}
+.body2 .body21 {
+  height: 92%;
+  width: 100%;
+}
+.body2 .body21 .safer {
+  margin-left: 11%;
+  margin-top: 6%;
+  font-size: 28px;
+  width: 70%;
+  position: relative;
+}
+.body2 .body21 .online {
+  width: 70%;
+  font-size: 30px;
+  margin-left: 11%;
+}
+.body2 .body21 .loanproducts {
+  margin-left: 11%;
+}
+.body2 .body21 .loanproducts .loan {
+  margin-top: -1%;
+  width: 90%;
+  position: relative;
+}
+.body2 .body21 .loanproducts select {
+  width: 90%;
+}
+.body2 .body21 .ploan {
+  margin-top: 1%;
+  margin-left: 11%;
+}
+.body2 .body21 .ploan label {
+  margin-top: -1%;
+  width: 90%;
+  position: relative;
+}
+.body2 .body21 .ploan input {
+  width: 90%;
+}
+.body2 .body21 .ploan div {
+  position: relative;
+  width: 90%;
+}
+.body2 .body21 .ploant {
+  margin-top: 1%;
+  margin-left: 11%;
+}
+.body2 .body21 .ploant label {
+  margin-top: -1%;
+  width: 90%;
+  position: relative;
+}
+.body2 .body21 .ploant select {
+  width: 90%;
+}
+.body2 .body21 .ploant div {
+  width: 90%;
+  position: relative;
+}
+.body2 .body21 .apply {
+  margin-left: 11%;
+  position: relative;
+  width: 15%;
+  height: 52px;
+  margin-top: 3%;
+}
+.body2 .pics {
+  display: none;
+}
+
+.body3 .house {
+  display: block;
+  margin-left: 40%;
+}
+.body3 .house .ploan {
+  margin-bottom: 5%;
+}
+
+.body5 .house {
+  width: 100%;
+  display: block;
+}
+.body5 .house div {
+  width: 98%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+.body5 .house div img {
+  width: 98%;
+}
+.body5 .house2 {
+  width: 100%;
+}
+.body5 .house2 div {
+  width: 98%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+.body5 .house2 div img {
+  width: 100%;
+}
+
+@media (max-width: 862px) {
+  .body4 {
+    padding-bottom: 5%;
+  }
+  .body4 .be .borrow {
+    width: 20%;
+    margin-right: 12%;
+    margin-left: 12%;
+    height: 50px;
+  }
+  .body4 .how {
+    font-size: 26px;
+  }
+  .body4 .know {
+    font-size: 16px;
+  }
+  .body4 div img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .body4 .be {
+    display: none;
+  }
+
+  .what2 {
+    width: 28%;
+    margin-left: 38%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 820px) {
+  .body2 .body21 .apply {
+    width: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .body5 .announce {
+    font-size: 21px;
+    padding-bottom: 2%;
+  }
+
+  .what2 {
+    width: 32%;
+    margin-left: 35%;
+  }
+}
+@media (max-width: 613px) {
+  .body2 .body21 .safer {
+    margin-top: 17%;
+    font-size: 22px;
+  }
+  .body2 .body21 .online {
+    font-size: 22px;
+  }
+
+  .what2 {
+    width: 38%;
+    margin-left: 30%;
+  }
+}
+@media (max-width: 540px) {
+  nav img {
+    width: 19%;
+  }
+
+  .body2 .body21 .apply {
+    width: 30%;
+  }
+
+  .body3 .house {
+    display: block;
+    margin-left: 35%;
+  }
+  .body3 .house .ploan {
+    margin-bottom: 7%;
+  }
+
+  .what2 {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 470px) {
+  .loan-product .loan a {
+    max-width: 70%;
+  }
+}
+@media (max-width: 390px) {
+  .what2 {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 354px) {
+  nav img {
+    width: 30%;
+  }
+
+  .body2 .body21 {
+    height: 98%;
+  }
+  .body2 .body21 .apply {
+    width: 40%;
+  }
+
+  .body3 .house {
+    display: block;
+    margin-left: 29%;
+  }
+  .body3 .house .ploan {
+    margin-bottom: 10%;
+    height: 70px;
+    padding: 3%;
+  }
+
+  .what2 {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 262px) {
+  nav img {
+    width: 35%;
+  }
+
+  .body2 .body21 {
+    height: 100%;
+  }
+  .body2 .body21 .apply {
+    width: 53%;
+  }
+
+  .body3 {
+    margin-top: 15%;
+  }
+  .body3 .house {
+    display: block;
+    margin-left: 25%;
+  }
+  .body3 .house .ploan {
+    margin-bottom: 12%;
+    height: 73px;
+    padding: 3%;
+  }
+
+  .what2 {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 200px) {
+  .body2 .body21 {
+    height: 110%;
+  }
+  .body2 .body21 .apply {
+    width: 53%;
+  }
+
+  .body3 {
+    margin-top: 39%;
+  }
+  .body3 .house {
+    display: block;
+    margin-left: 20%;
+  }
+  .body3 .house .ploan {
+    margin-bottom: 12%;
+    height: 73px;
+    padding: 3%;
+  }
+}
+@media (max-width: 150px) {
+  nav img {
+    width: 40%;
+  }
+
+  .body2 .body21 {
+    height: 125%;
+  }
+  .body2 .body21 .apply {
+    width: 65%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body3 {
+    margin-top: 70%;
+  }
+  .body3 .house {
+    display: block;
+    margin-left: 20%;
+  }
+  .body3 .house .ploan {
+    margin-bottom: 12%;
+    height: 73px;
+    padding: 3%;
+  }
+}
+@media (max-width: 114px) {
+  nav img {
+    width: 50%;
+  }
+
+  .body2 .body21 {
+    height: 200%;
+  }
+  .body2 .body21 .apply {
+    width: 65%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 50px) {
+  nav img {
+    width: 50%;
+  }
+
+  .body2 {
+    width: 100% !important;
+  }
+  .body2 .body21 {
+    height: 155%;
+  }
+  .body2 .body21 .apply {
+    width: 65%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.active {
+  transform: translateX(0%) !important;
+}
+
+/*# sourceMappingURL=index.css.map */

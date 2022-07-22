@@ -1,0 +1,158 @@
+.box{
+    min-height: 700px;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.login-side{
+    width: 50%;
+   min-height: 300px;
+}
+.login-side .div {
+    padding-left: 20px;
+}
+.login-side .dash-text{
+    color: #374151;
+    font-weight: 400;
+}
+.login-side .dash-text .dash{
+ margin-top: 10px;
+    width: 20%;
+        height: 0px;
+        border-bottom: 1px solid #d3d3d9;
+}
+.login-side input{
+    width: 80%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border: 1px solid #6b7280;
+    border-radius: 5px ;
+}
+img {
+    margin-top: 60px;
+    width: 200px;
+    height: 80px;
+}
+    .login-side h6{
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 40px;
+    }
+.login-side p{
+    color: #374151;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.login-side .sign{
+    padding: 10px 100px;
+    width: 80%;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(166, 164, 164);
+    color: #374151;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.login-side .forgot{
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #6c8bfb;
+}
+.login-side button{
+    background-color: #1952cd;
+    padding: 8px ;
+    width: 80%;
+    border: none;
+    display: block;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.login-side .sign-up{
+    font-size: 14px;
+}
+.login-side .foter{
+    font-size: 15px;
+}
+.login-side .foter-2{
+    margin-top: -60px;
+    font-size: 15px;
+}
+.login-side .foter-2 a{
+    color: #6c8bfb;
+}
+.aside{
+    width: 35%;
+    min-height: 500px;
+    background-color: #2eb29f;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.aside h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.aside h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.aside p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+@media (max-width:1001px) {
+   .box .aside{
+        display: none !important;
+    }
+    .box .login-side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .login-side .div{
+        pad: 0px !important;
+    }
+   img {
+       width: 300px;
+       height: 140px;
+   }
+   .login-side button {
+       width: 100%;
+   }
+   .login-side input {
+       width: 100%;
+   }
+ 
+}
+
+@media (max-width:640px){
+    img {
+            width: 200px;
+            height: 80px;
+        }
+                  .login-side .sign {
+                      padding: 10px 60px;
+                      width: 80%;
+                  }
+}
+
+
+@media (max-width:340px){
+ 
+                  .login-side .sign {
+                      padding: 10px 30px;
+                  }
+}

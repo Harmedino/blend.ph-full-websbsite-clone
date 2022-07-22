@@ -1,0 +1,111 @@
+.box {
+    min-height: 450px;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.container-one{
+    width: 50%;
+    min-height: 450px;
+    padding-left: 50px;
+}
+.card-body h2{
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 40px;
+}
+.card-body p{
+    color: #374151;
+        font-size: 18px;
+        letter-spacing: .7px;
+        font-weight: 700;
+        margin-bottom: 80px;
+}
+.container-fluid {
+    height: 100vh;
+}
+/* .container-fluid .side {
+    height: 100vh;
+    background-color: #2eb19f;
+    position: absolute;
+    top: 0;
+    right: 5.6%;
+    width: 450px;
+} */
+.card-body .bored-link {
+    width: 90% !important;
+    height: 80px !important;
+    border: 1px solid grey !important;
+    text-decoration: none;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+}
+.card-body a h6{
+    color: black;
+    font-weight: 700;
+}
+.card-body a p{
+    color: #374151;
+        font-size: 12px !important;
+        letter-spacing: .7px;
+        font-weight: 700;
+}
+.card-body .bored-link:hover{
+background-color: #d2e8fe;
+    border: none !important;
+}
+.account{
+    margin-top: -30px;
+    color: #374151;
+        font-size: 14px !important;
+        letter-spacing: .7px;
+        font-weight: 600;
+}
+ .card-body .copyright { 
+            margin-top: 130px;
+            color: #374151;
+            font-size: 14px !important;
+            letter-spacing: .7px;
+            font-weight: 600;       
+}
+.aside {
+    width: 35%;
+    min-height: 450px;
+    background-color: #2eb29f;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.aside h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.aside h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.aside p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+@media screen and (max-width:1024px) {
+  .box .aside{
+    display: none !important;
+   }
+  .container-one{
+    width: 100%;
+        display: flex;
+        justify-content: center;
+  }
+      
+    
+}   

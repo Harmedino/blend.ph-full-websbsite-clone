@@ -1,0 +1,27 @@
+main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+main .div {
+    width: 70%;
+    height: fit-content;
+    border: 1px solid aliceblue;
+}
+img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main h6 {
+    font-weight: 800 !important;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+main p {
+    color: #374151;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
