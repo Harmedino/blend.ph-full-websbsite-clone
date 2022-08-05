@@ -1,8 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 .box {
     min-height: 450px;
     margin: auto;
     width: 90%;
     justify-content: space-between;
+}
+.gray{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #374151 !important;
 }
 .container-one{
     width: 50%;
@@ -25,29 +34,22 @@
 .container-fluid {
     height: 100vh;
 }
-/* .container-fluid .side {
-    height: 100vh;
-    background-color: #2eb19f;
-    position: absolute;
-    top: 0;
-    right: 5.6%;
-    width: 450px;
-} */
 .card-body .bored-link {
-    width: 90% !important;
+    width: 100% !important;
     height: 80px !important;
     border: 1px solid grey !important;
     text-decoration: none;
-    padding: 10px 0px 10px 10px;
+    padding: 15px;
     border-radius: 10px;
 }
 .card-body a h6{
     color: black;
     font-weight: 700;
+    font-size: 18px;
 }
 .card-body a p{
     color: #374151;
-        font-size: 12px !important;
+        font-size: 14px !important;
         letter-spacing: .7px;
         font-weight: 700;
 }
@@ -56,18 +58,20 @@ background-color: #d2e8fe;
     border: none !important;
 }
 .account{
-    margin-top: -30px;
+    margin-top: -20px;
     color: #374151;
         font-size: 14px !important;
         letter-spacing: .7px;
-        font-weight: 600;
+        font-weight: 500 !important;
+        font-family: Arial, Helvetica, sans-serif;
 }
- .card-body .copyright { 
-            margin-top: 130px;
+ .card-body .copyright p { 
             color: #374151;
-            font-size: 14px !important;
-            letter-spacing: .7px;
-            font-weight: 600;       
+            font-weight: 400 !important;
+            font-size: 14px;  
+}
+.sec{
+    margin-top: -70px;
 }
 .aside {
     width: 35%;

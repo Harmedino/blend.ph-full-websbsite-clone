@@ -1,23 +1,13 @@
-@font-face {
-    font-family: opensans1;
-    src: url(../Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
-  }
-  @font-face {
-    font-family: opensans2;
-    src: url(../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
-  }
-  @font-face {
-    font-family:roboto-regular ;
-    src: url(../Roboto/Roboto-Regular.ttf);
-}
-@font-face {
-    font-family:roboto-bold;
-    src: url(../Roboto/Roboto-Bold.ttf);
-}
- 
+
+ *{
+    font-family: Arial, Helvetica, sans-serif !important;
+ }
+ button{
+    border: none;
+ }
 header {
     width: 100%;
-    height: 70px;
+    height: 79px;
     background-color: white;
     box-shadow: 3px 0px 5px rgb(201, 200, 200);
     align-items: center;
@@ -47,19 +37,21 @@ header {
             text-decoration: none;
             margin-left: 20px;
             color: #9a9a9a;
-            font-size: 16px;
+            font-size: 15px;
             letter-spacing: 1px;
-            font-weight: 500;
+            font-weight: 400;
         }
     }
 }
 .body2{
     display: flex;
     width: 100%;
-    height: 680px;
+    min-height: 600px;
+    margin-top: 80px;
     .body21{ 
         background-color: #F9FAFB;  
-        width: 50%;
+        width: 50% !important;
+        min-height: 600px;
         .safer{
             margin-top: 10%;
             color: #028079;
@@ -96,6 +88,9 @@ header {
         .ploan{
             margin-top: 4%;
             margin-left: 7%;
+            span{
+                color:red ;
+            }
             label{
                 font-family: opensans2;
                 font-size: 16px ;
@@ -120,6 +115,9 @@ header {
         .ploant{
             margin-top: 4%;
             margin-left: 7%;
+            span{
+                color: red;
+            }
             label{
                 font-family: opensans2;
                 font-size: 16px ;
@@ -147,7 +145,7 @@ header {
             justify-content: center;
             align-items: center;
             margin-left: 7%;
-            width: 21%;
+            width: 21% !important;
             height: 45px;
             font-weight: 500;
             font-size: 20px;
@@ -158,14 +156,15 @@ header {
             margin-top: 3%;
         }
     }
-    .pics{
-        width: 50%;
-        img{
-            width: 100%;
-            height: 100%;
+        .side-2 {
+            width: 50% !important;
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
-    }
 }
+
 .body3{
     width: 100%;
     background-color: white;
@@ -249,10 +248,11 @@ header {
        }
    }
     .learn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
         margin-top: 4%;
+        font-size: 14px !important;
+         color: #b8b7b7 !important;
+         font-weight: 400 !important;
     }
   
 }
@@ -348,18 +348,7 @@ padding-bottom: 5%;
         margin-top: 2%;
 
     }
-    // .house{
-    //     width: 100%;
-      
-    //     div{
-    //         width: 100%;
-    //         margin-bottom:20px;
-    //       padding: 0px 20px;
-    //         img{
-    //             width: 40%;
-    //         }
-    //     }
-    // }
+   
     .house2{
         width: 100% !important;
     
@@ -371,7 +360,7 @@ padding-bottom: 5%;
             padding: 0px 20px;
             width: 30%;
                 img {
-                    width: 400px !important;
+                    width: 100% !important;
                    
                 }
             }
@@ -454,28 +443,78 @@ padding-bottom: 5%;
         margin-bottom: 5%;
         margin-left: 42%;
 }
-@media (max-width:1304px) {
-    nav{
-        img{
-            width: 13%;
-        }
-        div{
-            margin-left: 28%;
-            a{
-                font-size: 16px ;
-            }
-        }  
-    } 
+.footer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a202c;
+    margin-top: 50px;
 }
+
+.footer .top {
+    height: 70px;
+    border-bottom: 1px solid white;
+}
+
+.footer .container .row {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.footer .container .row .icon {
+    color: white;
+}
+
+.icon i {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer .container .d-flex .side-1 {
+    min-height: 70vh;
+    width: 40%;
+    padding-right: 8em;
+}
+
+.footer .container .d-flex .side-1 h6 {
+    color: white;
+    font-size: 16px;
+}
+
+.footer .container .d-flex .side-1 p {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.footer .container .d-flex h5 {
+    color: #e4e7eb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer .container .d-flex .side-2 {
+    min-height: 50vh;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.footer .container .d-flex .side-2 .legal {
+    width: 30%;
+    min-height: 40vh;
+    margin-left: 20px;
+    padding: 0px 30px 30px 3px;
+}
+
+.footer .container .d-flex .side-2 .legal a {
+    display: block;
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 @media(max-width:1272px) {
-nav{
-    img{
-        width: 14%;
-    }
-    div{
-        margin-left: 25%;
-    }  
-}  
+
 .body2{
     .body21{ 
         width: 42%;
@@ -555,14 +594,7 @@ nav{
                 }
             }
         }
-nav{
-    img{
-        width: 16%;
-    }
-    div{
-        margin-left: 19%;
-    }  
-}  
+
 .body2{
     
     .body21{ 
@@ -1085,76 +1117,10 @@ height: 93%;
 @media(max-width:992px){
     .body2{
         .body21{
-            height: 92%;
-            width: 2%;
-            .safer{
-                margin-left: 30%;
-                margin-top: 300%;
-                font-size: 28px;
-                width: 2000%;
-                position: relative;
-            }
-            .online{
-                width:  1700%;
-                font-size: 30px;
-                margin-left: 30%;
-            }
-            .loanproducts{
-                margin-left: 30%;
-                .loan{
-                    margin-top: 80%;
-                    width:  2000%;
-                    position: relative;
-                }
-                
-                select{
-                    width:2000%;
-                }
-            }
-            .ploan{
-                margin-left: 30%;
-                label{
-                    width: 2000%;
-                    position: relative;
-                    margin-top: 5%;
-                }
-                input{
-                    width:2000%;
-                }
-                div{
-                    position: relative;
-                    width:2000%;
-                }
-            }
-            .ploant{
-                margin-left: 30%;
-                label{
-                    margin-top: 5%;  
-                    width: 2000%;
-                    position: relative;
-                }
-                select{
-                    width:2000%;
-                }
-                div{
-                    width: 2000%;
-                    position: relative;
-                }
-            }
-            .apply{
-                margin-left: 30%;
-                position: relative;
-                width: 700%;
-                height: 52px;
-                margin-top: 50%;
-            }
+            width: 100% !important;
             }  
-            .pics{
-                width: 98%;
-height: 93%;
-                img{
-                    height: 100%;
-                }
+            .side-2{
+                display: none ;
             }
         }
         .body4{
@@ -1208,15 +1174,12 @@ height: 93%;
             }
     .house2 {
         width: 100% !important;
-        border: 1px solid rgb(136, 0, 255);
         center {
             flex-direction: column;
-            border: 1px solid rgb(60, 255, 0);
             width: 90%;
             div {
                 padding: 0px 20px;
                 width: 100% !important;
-                border: 1px solid red;
                 margin: auto;
 
                 img {

@@ -1,22 +1,14 @@
-@font-face {
-  font-family: opensans1;
-  src: url(../Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
 }
-@font-face {
-  font-family: opensans2;
-  src: url(../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+
+button {
+  border: none;
 }
-@font-face {
-  font-family: roboto-regular;
-  src: url(../Roboto/Roboto-Regular.ttf);
-}
-@font-face {
-  font-family: roboto-bold;
-  src: url(../Roboto/Roboto-Bold.ttf);
-}
+
 header {
   width: 100%;
-  height: 70px;
+  height: 79px;
   background-color: white;
   box-shadow: 3px 0px 5px rgb(201, 200, 200);
   align-items: center;
@@ -42,19 +34,21 @@ header .navs a {
   text-decoration: none;
   margin-left: 20px;
   color: #9a9a9a;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .body2 {
   display: flex;
   width: 100%;
-  height: 680px;
+  min-height: 600px;
+  margin-top: 80px;
 }
 .body2 .body21 {
   background-color: #F9FAFB;
-  width: 50%;
+  width: 50% !important;
+  min-height: 600px;
 }
 .body2 .body21 .safer {
   margin-top: 10%;
@@ -93,6 +87,9 @@ header .navs a {
   margin-top: 4%;
   margin-left: 7%;
 }
+.body2 .body21 .ploan span {
+  color: red;
+}
 .body2 .body21 .ploan label {
   font-family: opensans2;
   font-size: 16px;
@@ -115,6 +112,9 @@ header .navs a {
 .body2 .body21 .ploant {
   margin-top: 4%;
   margin-left: 7%;
+}
+.body2 .body21 .ploant span {
+  color: red;
 }
 .body2 .body21 .ploant label {
   font-family: opensans2;
@@ -142,7 +142,7 @@ header .navs a {
   justify-content: center;
   align-items: center;
   margin-left: 7%;
-  width: 21%;
+  width: 21% !important;
   height: 45px;
   font-weight: 500;
   font-size: 20px;
@@ -152,10 +152,10 @@ header .navs a {
   border-radius: 5px;
   margin-top: 3%;
 }
-.body2 .pics {
-  width: 50%;
+.body2 .side-2 {
+  width: 50% !important;
 }
-.body2 .pics img {
+.body2 .side-2 img {
   width: 100%;
   height: 100%;
 }
@@ -233,10 +233,11 @@ header .navs a {
   color: #9a9a9a;
 }
 .body3 .learn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   margin-top: 4%;
+  font-size: 14px !important;
+  color: #b8b7b7 !important;
+  font-weight: 400 !important;
 }
 
 .body4 {
@@ -343,7 +344,7 @@ header .navs a {
   width: 30%;
 }
 .body5 .house2 center div img {
-  width: 400px !important;
+  width: 100% !important;
 }
 .body5 .service img {
   width: 100%;
@@ -418,25 +419,77 @@ header .navs a {
   margin-left: 42%;
 }
 
-@media (max-width: 1304px) {
-  nav img {
-    width: 13%;
-  }
-  nav div {
-    margin-left: 28%;
-  }
-  nav div a {
-    font-size: 16px;
-  }
+.footer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1a202c;
+  margin-top: 50px;
 }
-@media (max-width: 1272px) {
-  nav img {
-    width: 14%;
-  }
-  nav div {
-    margin-left: 25%;
-  }
 
+.footer .top {
+  height: 70px;
+  border-bottom: 1px solid white;
+}
+
+.footer .container .row {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.footer .container .row .icon {
+  color: white;
+}
+
+.icon i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.footer .container .d-flex .side-1 {
+  min-height: 70vh;
+  width: 40%;
+  padding-right: 8em;
+}
+
+.footer .container .d-flex .side-1 h6 {
+  color: white;
+  font-size: 16px;
+}
+
+.footer .container .d-flex .side-1 p {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.footer .container .d-flex h5 {
+  color: #e4e7eb;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer .container .d-flex .side-2 {
+  min-height: 50vh;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.footer .container .d-flex .side-2 .legal {
+  width: 30%;
+  min-height: 40vh;
+  margin-left: 20px;
+  padding: 0px 30px 30px 3px;
+}
+
+.footer .container .d-flex .side-2 .legal a {
+  display: block;
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1272px) {
   .body2 .body21 {
     width: 42%;
   }
@@ -491,13 +544,6 @@ header .navs a {
 @media (max-width: 1192px) {
   .loan-product .loan a {
     margin-left: 20px;
-  }
-
-  nav img {
-    width: 16%;
-  }
-  nav div {
-    margin-left: 19%;
   }
 
   .body2 .body21 {
@@ -925,75 +971,10 @@ header .navs a {
 }
 @media (max-width: 992px) {
   .body2 .body21 {
-    height: 92%;
-    width: 2%;
+    width: 100% !important;
   }
-  .body2 .body21 .safer {
-    margin-left: 30%;
-    margin-top: 300%;
-    font-size: 28px;
-    width: 2000%;
-    position: relative;
-  }
-  .body2 .body21 .online {
-    width: 1700%;
-    font-size: 30px;
-    margin-left: 30%;
-  }
-  .body2 .body21 .loanproducts {
-    margin-left: 30%;
-  }
-  .body2 .body21 .loanproducts .loan {
-    margin-top: 80%;
-    width: 2000%;
-    position: relative;
-  }
-  .body2 .body21 .loanproducts select {
-    width: 2000%;
-  }
-  .body2 .body21 .ploan {
-    margin-left: 30%;
-  }
-  .body2 .body21 .ploan label {
-    width: 2000%;
-    position: relative;
-    margin-top: 5%;
-  }
-  .body2 .body21 .ploan input {
-    width: 2000%;
-  }
-  .body2 .body21 .ploan div {
-    position: relative;
-    width: 2000%;
-  }
-  .body2 .body21 .ploant {
-    margin-left: 30%;
-  }
-  .body2 .body21 .ploant label {
-    margin-top: 5%;
-    width: 2000%;
-    position: relative;
-  }
-  .body2 .body21 .ploant select {
-    width: 2000%;
-  }
-  .body2 .body21 .ploant div {
-    width: 2000%;
-    position: relative;
-  }
-  .body2 .body21 .apply {
-    margin-left: 30%;
-    position: relative;
-    width: 700%;
-    height: 52px;
-    margin-top: 50%;
-  }
-  .body2 .pics {
-    width: 98%;
-    height: 93%;
-  }
-  .body2 .pics img {
-    height: 100%;
+  .body2 .side-2 {
+    display: none;
   }
 
   .body4 .be .borrow {
@@ -1035,17 +1016,14 @@ header .navs a {
 
   .house2 {
     width: 100% !important;
-    border: 1px solid rgb(136, 0, 255);
   }
   .house2 center {
     flex-direction: column;
-    border: 1px solid rgb(60, 255, 0);
     width: 90%;
   }
   .house2 center div {
     padding: 0px 20px;
     width: 100% !important;
-    border: 1px solid red;
     margin: auto;
   }
   .house2 center div img {

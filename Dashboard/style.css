@@ -1,0 +1,455 @@
+body{
+    overflow-x: hidden;
+}
+.body aside {
+    width: 250px;
+    min-height: 100vh;
+    position: relative;
+    box-shadow: 0px 4px 4px rgb(232, 230, 230);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 2050;
+} .nav-bar i {
+    display: none;
+}
+.links i {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.cancle  {
+    display: none;
+}
+svg{
+    width: 30px;
+}
+.body main {
+    margin-left: 250px;
+    width:82%;
+        min-height: 100vh;
+        padding: 20px 30px;
+        background-color: #f3f4f6;
+}
+aside .links{
+    margin-top: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.links p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.links p:hover{
+    background-color: #b1b3b6;
+}
+.footer{
+    height: 70px;
+    background-color: #f3f4f6;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #2eb29f;
+}
+.footer p{
+    margin-bottom: -5px;
+}
+main .create{
+    width: 35%;
+    min-height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(232, 230, 230);
+    background-color: white;
+}
+.create h6{
+    font-size: 18px;
+}
+.create p{
+    font-size: 14px;
+    color: #6b7280;
+}
+main .loan{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 10px;
+}
+.loan .side-1{
+    height: 100px;
+    width: 50%;
+    padding: 15px;
+}
+.loan .side-2{
+    height: 100px;
+    width: 50%;
+    padding: 15px;
+}
+.loan h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.side-2 b{
+    background-color: #feddd5;
+    color: red;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.referral{
+    width: 82%;
+        min-height: 100vh;
+        padding: 40px 30px;
+        background-color: #f3f4f6;
+        margin-left: 250px;
+        
+}
+section{
+    display: none;
+}
+.referral h1{
+    color: #028079;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.referral .refer{
+    width: 32%;
+    min-height: 290px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 70px 30px 10px 30px;
+        position: relative;
+        box-shadow: 2px 2px 2px rgb(232, 230, 230);
+}
+.refer p{
+    font-size: 16px;
+    color: #9f7b90;
+    margin-bottom: 50px;
+}
+.refer-link{
+    width: 100%;
+    background-color: rgb(253, 252, 254);
+    height: 50px;
+    border-top: 1px solid rgb(173, 170, 170);
+    position: absolute;
+    bottom: -20px;
+}
+.referral .refer-status{
+    width: 65%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(232, 230, 230);
+}
+.refer-status .top{
+    width: 100%;
+    height: 40px;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.refer-status .down{
+    padding:5px 30px 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(232, 230, 230);
+    border-radius: 10px;
+}
+.bank{
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(232, 230, 230);
+    border-radius: 10px;
+    padding: 10px 30px 30px 30px;
+    position: relative;
+}
+.info{
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(232, 230, 230);
+        border-radius: 10px;
+        padding: 10px 30px 30px 30px;
+        position: relative;
+}
+.bank-2{
+    width: 100% !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bank-2 .form {
+    width: 470px !important;
+}
+.info .form{
+    width: 30%;
+    margin-right: 20px;
+}
+.form select{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.bank select,input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 175, 175);
+}
+.bank .input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 192, 192);
+    font-size: 16px;
+}
+.settings h6{
+    font-size: 22px;
+}
+.settings .manage{
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+}
+.settings .manage .commited {
+    width: 260px;
+    height: 170px;
+    border: 1px solid rgb(171, 170, 170);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.commited p{
+    letter-spacing: .8px;
+    font-size: 16px;
+    margin-bottom: -1px;
+}
+.path{
+    width: 50px;
+    height: 50px;
+}
+.path i{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.settings .manage p {
+    font-size: 14px;
+}
+.settings .request{
+    width: 70%;
+    height: 300px;
+    padding: 20px;
+}
+
+.butt button{
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .8px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.but .btn-primary{
+    position: absolute;
+    bottom:10px ;
+    right:120px;
+}
+.second{
+    bottom: 5px;
+    right: 40px !important;
+    border: 1px solid red;
+}
+.but .btn-success{
+    position: absolute;
+    bottom:10px ;
+    right:20px !important;
+}
+.personal p {
+    color: #374151;
+    font: 20px;
+    letter-spacing: .7px;
+    font-weight: 400;
+}
+span{
+    color: red;
+}
+.referral h5 {
+    color: #028079;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.referral p {
+    color: #6b7280;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active1{
+    display: none;
+}
+.green{
+    color: #028079 !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.personal{
+        width: 100%;
+            min-height: 200px;
+            background-color: white;
+            box-shadow: 2px 2px 2px rgb(232, 230, 230);
+            border-radius: 10px;
+            padding: 10px 30px 30px 30px;
+            position: relative;
+}
+.profile {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile .name {
+    width: 320px;
+}
+.name select{
+    width: 100%;
+    padding: 9px;
+    border-radius: 7px;
+}
+.name label{
+    font-weight: 500;
+    color: #374151;
+    font-size: 15px;
+}
+
+@media(max-width:1294px){
+    .referral-p{
+        flex-direction: column;
+    }
+    .refer{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .refer-status{
+        width: 100% !important;
+        margin-right: 10px !important;
+    }
+}
+@media (max-width:1094px){
+    .settings{
+        flex-direction: column;
+    }
+    .manage, .request{
+        width: 100% !important;
+
+    }
+    .manage .commited{
+        width: 50% !important;
+    }
+    .bank{
+        flex-direction: column !important;
+    }
+}
+
+@media(max-width:750px){
+   
+  
+    .body main,.referral {
+        width: 100%;   
+        margin-left: 0px !important;
+    }
+    main .create{
+        width: 80%;
+        min-height: 100px !important;
+        margin-top: 50px;
+    }
+  .active3 {
+      display: none !important;
+      background-color: white !important;
+  }
+   .nav-bar i {
+       display: inherit;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     z-index: 1050;
+   }
+.cancle i{
+    position: absolute;
+    top: 0px;
+    background-color: #374151;
+    opacity: .4;
+    font-size: 24px;
+    color: white;
+    width: 80%;
+    z-index:4;
+    left: 250px;
+    height: 100vh;
+}
+  
+    .nav-bar{
+        font-size: 20px;
+    }
+
+}
+@media(max-width:650px){
+   .info-2{
+    flex-direction: column;
+    width: 90%;
+   }
+   .info-2 .form{
+    width: 100%;
+   }
+   .info-2 .form select,input{
+    width: 100% !important;
+    border: 1px solid rgb(168, 166, 166);
+   }
+   main .loan {
+       width: 100%;
+       min-height: 100px;
+       background-color: white;
+       border: 1px solid rgb(233, 231, 231);
+       border-radius: 10px;
+       padding-bottom: 30px;
+   }
+   .down p{
+    display: none;
+   }
+   .down button{
+    justify-content: space-around;
+   }
+ 
+}
+

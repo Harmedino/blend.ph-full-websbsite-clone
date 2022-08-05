@@ -1,0 +1,134 @@
+@font-face {
+  font-family:opensansbold ;
+  src: url(../Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: opensansregular;
+  src: url(../Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: opensans2;
+  src: url(../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: opensansmedium;
+  src: url(../Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+  @font-face {
+    font-family:roboto-regular ;
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:roboto-bold;
+    src: url(../Roboto/Roboto-Bold.ttf);
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  box-shadow: 3px 0px 5px rgb(201, 200, 200);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+}
+
+header img {
+  width: 150px;
+  height: 50px;
+}
+
+header .nav-bar {
+  border: none;
+  background-color: transparent;
+}
+
+header .nav-bar i {
+  display: none;
+}
+
+header .navs a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #9a9a9a;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.legal{
+margin-top: 130px !important;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500; 
+}
+.body1{
+  padding-left: 22%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+.body1 a{
+  text-decoration: none !important;
+  color: #5B9846 !important;
+}
+hr{
+  color: #666666;
+}
+.terms{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: opensansmedium, Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+.condition{
+  color: #5B9846;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: opensansmedium, Arial, Helvetica, sans-serif;
+}
+.privacy{
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: opensansmedium, Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 980px) {
+  header .navs {
+    position: absolute;
+    height: 300px;
+    top: 70px;
+    right: 0px;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    z-index: -5 !important;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+
+  header .navs a {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  header .nav-bar i {
+    display: inherit;
+    margin-right: 30px;
+  }
+
+  header .nav-bar a {
+    display: block;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(103, 100, 100);
+  }
+}
+
+.active {
+  transform: translateX(0%) !important;
+}

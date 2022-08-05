@@ -3,7 +3,6 @@ img{
     margin-left: 40px;
     margin-bottom: 70px;
 }
-
 .sec{
     border-radius: 10px;
     width: 95%;
@@ -33,32 +32,70 @@ img{
 }
 .right{
     width: 85% !important;
-    border: 1px solid deeppink;
     height: 200px;
-    display: flex;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7rem;
+}
+.right-mid{
+display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.form{
+    margin-left: -20px;
+}
+.part{
+    color: #b8c1a6;
+    font-size: 18px;
+}
+.input{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+input{
+    margin-left: 10px !important;
+    border:  1px solid white !important;
+}
+input:focus{
+    border: none !important;
+}
+.part a{
+    color: white;
+    text-decoration: underline;
+}
 button{
     color: white;
     border-radius: 7px !important;
     background-color: #18bc3e;
-    padding: 10px;
+    padding: 0px 10px;
+    height: 50px;
     border: none;
+    margin-top: 2rem !important;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: .8px;
+    margin-left: -30px !important;
 }
-input, select{
-    border-radius: 8px;
-    width: 80%;
+input{
+    width: 70%;
     height: 50px;
+    border: none !important;
+}
+select{
+width: 100%;
+margin-left: -35px !important;
+height: 50px;
+border-radius: 8px;
 }
 center h6 {
     color:#096a77;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 80px;
 }
 center h1{
@@ -73,6 +110,6 @@ center p {
 center a{
     text-decoration: none !important;
     color: #286a72;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
