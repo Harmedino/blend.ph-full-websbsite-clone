@@ -37,9 +37,9 @@ header .navs a {
   text-decoration: none;
   margin-left: 20px;
   color: #9a9a9a;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -582,7 +582,6 @@ center h5 {
     text-align: left;
     color: rgb(103, 100, 100);
   }
-
   .bod .invest {
     flex-direction: column;
     display: flex;
@@ -595,7 +594,6 @@ center h5 {
     width: 150px;
     margin-bottom: 30px;
   }
-
   .rate {
     width: 90%;
     min-height: 100px;
@@ -612,7 +610,6 @@ center h5 {
     font-weight: 700;
     font-size: xx-large;
   }
-
   .create {
     flex-direction: column !important;
     width: 90% !important;
@@ -621,7 +618,6 @@ center h5 {
   .create .account {
     width: 90% !important;
   }
-
   .mayor .slide1 {
     display: none !important;
   }
@@ -634,23 +630,28 @@ center h5 {
   .most h5 {
     font-size: 16px;
   }
-
   .criteria .legal, .criteria .borrower, .criteria .auto-invest, .criteria .peer {
-    width: 40% !important;
+    width: 40%;
   }
 }
 @media (max-width: 650px) {
   .criteria {
     flex-direction: column !important;
+    align-items: center;
   }
-
   .legal,
 .borrower,
 .auto-invest,
 .peer {
-    padding: 0px;
-    width: 70% !important;
-    margin: auto;
+    min-width: 50% !important;
+  }
+}
+@media (max-width: 350px) {
+  .legal,
+.borrower,
+.auto-invest,
+.peer {
+    min-width: 30% !important;
   }
 }
 
